@@ -7,8 +7,7 @@
     "preinstall": "npm i -g nodemon ts-node",
     "start": "node build/main.js",
     "dev": "nodemon src/main.ts",
-    "build": "tsc -b",
-    "deploy": "npm run build && railway up"
+    "build": "tsc -b"
   },
   "keywords": [],
   "author": "",
